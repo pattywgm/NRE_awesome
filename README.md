@@ -15,6 +15,8 @@
    * 通用细粒度事件检测
    * 面向金融领域的篇章级事件抽取和事件因果关系抽取
 
+* 基于DocRED数据集的竞赛 <https://competitions.codalab.org/competitions/20717#results>
+
 ### 数据集
 * https://opennre-docs.readthedocs.io/en/latest/get_started/benchmark.html
 
@@ -58,6 +60,10 @@
 
 * DocRED
 	* 篇章级别的关系抽取：相比于针对句子的关系抽取，篇章级别的关系抽取难度更大，但包含的信息也更丰富。要想在这方面做的更好，就需要模型具有一定的推理、指代消解的能力。这一领域的代表数据集是同样来自THUNLP的[DocRED](https://github.com/thunlp/DocRED)。
+	* DocRED以 Wikipedia 作为语料库、以 Wikidata 作为知识图谱构建的，包含对超过5000篇Wikipedia文章的标注，包括96种关系类型、143,375个实体和56,354个关系事实
+	* 除了人工精标注的数据集，DocRED还提供了超过10万篇的基于远程监督数据，以支持弱监督的关系抽取研究
+	* [文档级实体关系抽取——知识获取的新挑战]<https://zhuanlan.zhihu.com/p/93318977>
+
 
 * SemEval-2010 Task 8
  * 对于给定了的句子和两个做了标注的名词，从给定的关系清单中选出最合适的关系
