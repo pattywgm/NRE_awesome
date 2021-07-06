@@ -15,7 +15,10 @@
    * 通用细粒度事件检测
    * 面向金融领域的篇章级事件抽取和事件因果关系抽取
 
-* 基于DocRED数据集的竞赛 <https://competitions.codalab.org/competitions/20717#results>
+* [基于DocRED数据集的竞赛](https://competitions.codalab.org/competitions/20717#results)
+* [百度---2020语言与智能技术竞赛：关系抽取任务](https://aistudio.baidu.com/aistudio/competition/detail/31)
+* [千言数据集-信息抽取](https://aistudio.baidu.com/aistudio/competition/detail/46) 包含句子级、篇章集
+* [2021语言与智能技术竞赛：多形态信息抽取任务](https://aistudio.baidu.com/aistudio/competition/detail/65?isFromLuge=true)
 
 ### 数据集
 * https://opennre-docs.readthedocs.io/en/latest/get_started/benchmark.html
@@ -30,6 +33,11 @@
 | Wiki20m |	81	| 901314 | bag-level |
 | DocRED | | | Document-level |
 | FewRel | 100 | 70000 | Few-Short RE |
+| DuIE2.0 |  |  |  |
+| DuEE1.0 |  |  | sentence-level |
+| DuEE-fin |  |  | document-level |
+
+
 
 * wiki80
 	```shell
@@ -101,7 +109,7 @@
 * WebNLG
    * <https://webnlg-challenge.loria.fr/download/>
 
-* AEC2015
+* ACE2005
   * <https://catalog.ldc.upenn.edu/LDC2006T06>
 
 * SCIERC
@@ -110,6 +118,7 @@
 * QA-SRL
   * <https://dada.cs.washington.edu/qasrl/#dataset>
 
+
 ###开源工具
 * [OpenNRE: 可一键运行的开源关系抽取工具包](http://nlp.csai.tsinghua.edu.cn/project/opennre/)
 
@@ -117,3 +126,5 @@
 * [最新进展排名]<https://paperswithcode.com/task/relation-extraction/latest>
 * [清华自然语言处理实验室官方]<https://github.com/thunlp>
 * <https://github.com/loujie0822/DeepIE>
+* [事件抽取 Event Extraction](https://github.com/PaddlePaddle/PaddleNLP/tree/develop/examples/information_extraction/DuEE)
+* [关系抽取Relation Extraction](https://github.com/PaddlePaddle/PaddleNLP/tree/develop/examples/information_extraction/DuIE)
